@@ -1128,7 +1128,7 @@ button,input,select{
 </style>
 
 <link rel="manifest" href="./manifest.webmanifest">
-<link rel="apple-touch-icon" href="./icons/icon-180.png">
+<link rel="apple-touch-icon" href="./icon-180.png">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -1451,7 +1451,7 @@ const hands=[]; for(let r=0;r<13;r++)for(let c=0;c<13;c++)hands.push(handAt(r,c)
 
 function makeUUID(){
  if(globalThis.crypto && typeof globalThis.crypto.randomUUID==="function"){
-   return globalThis.makeUUID();
+   return globalThis.crypto.randomUUID();
  }
  return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g,c=>{
    const r=Math.random()*16|0;
