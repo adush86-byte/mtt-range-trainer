@@ -1,0 +1,39 @@
+MTT RANGE TRAINER — GITHUB PAGES
+
+1. Открой github.com и войди в свой аккаунт.
+2. Нажми New repository.
+3. Назови репозиторий, например:
+   mtt-range-trainer
+4. Выбери Public.
+5. Создай репозиторий.
+
+6. Нажми Add file → Upload files.
+7. Загрузи ВСЕ файлы и папки из этой папки:
+   - index.html
+   - manifest.webmanifest
+   - sw.js
+   - icons/
+   - .nojekyll
+   - .github/
+
+8. Нажми Commit changes.
+
+9. Открой:
+   Settings → Pages
+
+10. В разделе Build and deployment выбери:
+    Source → GitHub Actions
+
+11. Открой вкладку Actions.
+    Дождись, пока Deploy static site to GitHub Pages станет зелёным.
+
+12. После публикации адрес будет примерно:
+    https://ВАШ-ЛОГИН.github.io/mtt-range-trainer/
+
+IPHONE:
+1. Открой опубликованную ссылку именно в Safari.
+2. Нажми Поделиться.
+3. Выбери «На экран “Домой”».
+4. Нажми «Добавить».
+
+После первого успешного открытия PWA сможет использовать офлайн-кэш.
